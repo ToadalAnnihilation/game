@@ -10,7 +10,7 @@ public class CreateWorldTest {
     public void testCreateWorld(){
         World w = new World();
         
-        assertNotNull("World was null", w.getTerritories());
+        assertNotNull("World was null", w.getContinents());
 //        Assert.assertNotEquals("No territories added",  0, w.getTerritories().size());
     }
 }
